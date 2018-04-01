@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<%@ page isELIgnored="false"%>
 
 <html>
 <body>
@@ -18,5 +19,11 @@
     <input type="password" name="password" placeholder="密码" >
     <input type="submit" value="登录" >
 </form>
+
+<form action="${pageContext.request.contextPath}/customer/upload.do" method="post" enctype="multipart/form-data">
+    <input type="file" name="upfile">
+    <input type="submit" value="上传" >
+</form>
+${username.userName}
 </body>
 </html>

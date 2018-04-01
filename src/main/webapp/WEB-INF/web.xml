@@ -1,7 +1,8 @@
-<!DOCTYPE web-app PUBLIC
-        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
-        "http://java.sun.com/dtd/web-app_2_3.dtd" >
-<web-app >
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
 
   <!--为ContextLoaderListener 监听器指定将要读取的初始化参数(为了确定spring配置文件的位置)-->
   <context-param>
@@ -47,6 +48,9 @@
     </init-param>
     <!--当Web容器加载当前的Web应用是就对该Servlet执行初始化操作-->
     <load-on-startup>1</load-on-startup>
+
+    <!--启用Servlet 3.0上传支持-->
+    <multipart-config/>
   </servlet>
   <!-- 拦截设置 -->
   <servlet-mapping>
