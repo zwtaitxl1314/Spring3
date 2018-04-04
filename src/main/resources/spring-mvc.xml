@@ -10,12 +10,14 @@
     <context:component-scan base-package="controller"/>
 
     <!--对转向页面的路径解析，prefix：前缀  suffix ：后缀
-    如果在控制器类中反悔了一个字符串，例如 return "‘abc"
+    如果在控制器类中返回了一个字符串，例如 return "abc"
     则导致寻找 prefix+"abc"+suffix 即 /WEB-INF/jsp/abc.jsp
     -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
+
 
 </beans>
