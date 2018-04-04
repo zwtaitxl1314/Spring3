@@ -36,54 +36,48 @@
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="image/201023153930763.jpg" alt="First slide">
+                <img src="image/轮播1.jpg" alt="First slide">
             </div>
             <div class="item">
-                <img src="image/banner2.jpg" alt="Second slide">
+                <img src="image/115.jpg" alt="Second slide">
             </div>
             <div class="item">
-                <img src="image/banner3.jpg" alt="Third slide">
+                <img src="image/轮播3.jpg" alt="Third slide">
             </div>
         </div>
 
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
-
+    <div class="Provide">
+        <div class="Provide-head">
+                <h1>我们提供</h1>
+        </div>
+        <div class="we-provide">
+            <ul>
+                <li><span><img src="image/lunch.png" alt=""></span>
+                    <h2>菜肴资料</h2>
+                    <p>公司目前经营的范围包括：电子商务平台开发技术支持、技术转让、运维技术服务大数据、云计算等。</p></li>
+                <li><span><img src="image/dinner.png" alt=""></span>
+                    <h2>视频教学</h2>
+                    <p>公司目前经营的范围包括：电子商务平台开发技术支持、技术转让、运维技术服务大数据、云计算等。</p></li>
+                <li><span><img src="image/coffee.png" alt=""></span>
+                    <h2>文字教学</h2>
+                    <p>公司目前经营的范围包括：电子商务平台开发技术支持、技术转让、运维技术服务大数据、云计算等。</p></li>
+            </ul>
+        </div>
+    </div>
 
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- 包括所有已编译的插件 -->
     <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
-    <script>
-        $(function(){
-            // 初始化轮播
-            $(".start-slide").click(function(){
-                $("#myCarousel").carousel('cycle');
-            });
-            // 停止轮播
-            $(".pause-slide").click(function(){
-                $("#myCarousel").carousel('pause');
-            });
-            // 循环轮播到上一个项目
-            $(".prev-slide").click(function(){
-                $("#myCarousel").carousel('prev');
-            });
-            // 循环轮播到下一个项目
-            $(".next-slide").click(function(){
-                $("#myCarousel").carousel('next');
-            });
-            // 循环轮播到某个特定的帧
-            $(".slide-one").click(function(){
-                $("#myCarousel").carousel(0);
-            });
-            $(".slide-two").click(function(){
-                $("#myCarousel").carousel(1);
-            });
-            $(".slide-three").click(function(){
-                $("#myCarousel").carousel(2);
-            });
-        });
-    </script>
 </body>
 </html>
