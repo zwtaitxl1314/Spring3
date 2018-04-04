@@ -74,6 +74,44 @@
         </div>
     </div>
 
+    <!--菜式欣赏-->
+    <div class="appreciate">
+        <div class="appreciate-head">
+            <h1>菜式欣赏</h1>
+        </div>
+
+        <div class="appreciate-text">
+            <img src="image/菜肴欣赏横图.jpg">
+        </div>
+        <div class="text">
+            <p>
+                <span>每一种食物来源都经过我们的精挑细选，关于食材我们只选最天然、健康、优质的，只为一份对极致美味的追求，用心做好每一份菜，是我们不变的宗旨。</span>
+            </p>
+        </div>
+
+        <div class="appreciate-pic">
+            <img src="image/佛跳墙.jpg" alt="无法显示图片" title="佛跳墙">
+            <img src="image/东坡肉.jpg" alt="无法显示图片" title="东坡肉">
+            <img src="image/宫保鸡丁.jpg" alt="无法显示图片" title="宫保鸡丁">
+            <img src="image/荔枝肉.jpg" alt="无法显示图片" title="荔枝肉">
+            <img src="image/腌鲜鳜鱼.jpg" alt="无法显示图片" title="腌鲜鳜鱼">
+            <img src="image/腊味合蒸.jpg" alt="无法显示图片" title="腊味合蒸">
+            <img src="image/糖醋黄河鲤鱼.jpg" alt="无法显示图片" title="糖醋黄河鲤鱼">
+            <img src="image/烤乳猪.jpg" alt="无法显示图片" title="烤乳猪">
+            <img src="image/清炖蟹粉狮子头.jpg" alt="无法显示图片" title="清炖蟹粉狮子头">
+        </div>
+    </div>
+
+    <div class="kinds">
+            <ul >
+                <li><a href="" name="index">网站首页</a></li>
+                <li><a href="" name="about">关于我们 </a></li>
+                <li><a href="" name="productlist">菜式欣赏 </a></li>
+                <li><a href="" name="article">美食资讯 </a></li>
+                <li><a href="" name="contact">在线预订 </a></li>
+            </ul>
+        </div>
+
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- 包括所有已编译的插件 -->
