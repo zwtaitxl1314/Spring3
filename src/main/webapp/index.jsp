@@ -5,13 +5,30 @@
 <html>
 <head>
     <title>首页</title>
-    <link rel="stylesheet" href="css/1.css">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/1.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.css">
+
+    <style>
+        .nav-tabs {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .nav-tabs > li.active > a,
+        .nav-tabs > li.active > a:hover,
+        .nav-tabs > li.active > a:focus {
+            color: #555;
+            cursor: default;
+            background-color: #fff8ef;
+            border: none ;
+            border-bottom-color: transparent;
+        }
+
+
+    </style>
 </head>
 <body>
-    <div class="header-nav">
+    <div class="header">
         <div class="navigation">
             <a href="index.jsp"  class="hd-logo" title="美食餐厅" ><img src="image/logo1.png"></a>
             <ul class="hd-nav">
@@ -103,19 +120,78 @@
     </div>
 
     <div class="kinds">
-            <ul >
-                <li><a href="" name="index">网站首页</a></li>
-                <li><a href="" name="about">关于我们 </a></li>
-                <li><a href="" name="productlist">菜式欣赏 </a></li>
-                <li><a href="" name="article">美食资讯 </a></li>
-                <li><a href="" name="contact">在线预订 </a></li>
-            </ul>
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active">
+                <a href="#shangdong" data-toggle="tab">
+                    鲁菜
+                </a>
+            </li>
+
+            <li>
+                <a href="#sichuang" data-toggle="tab">川菜</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="#guangdong" data-toggle="tab">粤菜</a>
+            </li>
+            <li class="dropdown">
+                <a href="#jiangsu" data-toggle="tab">苏菜</a>
+            </li>
+            <li class="dropdown">
+                <a href="#fujiang" data-toggle="tab">闽菜</a>
+            </li>
+            <li class="dropdown">
+                <a href="#zhejiang" data-toggle="tab">浙菜</a>
+            </li>
+            <li class="dropdown">
+                <a href="#hunan" data-toggle="tab">湘菜</a>
+            </li>
+            <li class="dropdown">
+                <a href="#huizhou" data-toggle="tab">徽菜</a>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="shangdong">
+                <p></p>
+            </div>
+            <div class="tab-pane fade" id="sichuang">
+                <p>iOS
+            </div>
+            <div class="tab-pane fade" id="guangdong">
+                <p>iOS
+            </div>
+            <div class="tab-pane fade" id="jiangsu">
+                <p>Apple
+            </div>
+            <div class="tab-pane fade"id="fujiang" >
+                <p>、iPod Touch 和 Apple
+            </div>
+            <div class="tab-pane fade" id="zhejiang">
+                <p> 2007 年首次发布 iPhone、iPod Touch 和 Apple
+            </div>
+            <div class="tab-pane fade" id="hunan">
+                <p> 2007 年首次发布 iPhone、iPod Touch 和 Apple
+            </div>
+            <div class="tab-pane fade" id="huizhou">
+                <p> 2007 年首次发布 iPhone、iPod Touch 和 Apple
+            </div>
+
         </div>
+    </div>
+
 
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- 包括所有已编译的插件 -->
     <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+
+
 </body>
+
+
 </html>
