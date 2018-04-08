@@ -14,7 +14,7 @@
     则导致寻找 prefix+"abc"+suffix 即 /WEB-INF/jsp/abc.jsp
     -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="prefix" value="/WEB-INF/page/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 

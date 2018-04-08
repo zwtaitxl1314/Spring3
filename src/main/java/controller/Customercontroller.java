@@ -14,13 +14,22 @@ public class Customercontroller {
 
     @RequestMapping("/regist")
     public String regist(HttpServletRequest request,User user){
-        System.out.println("执行regist方法");
+        System.out.println("执行regist方法111111");
+        String name = request.getParameter("name");
         String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        String address = request.getParameter("address");
+        String tel = request.getParameter("tel");
+
+        user.setName(name);
         user.setUserName(username);
+        user.setPassword(password);
+        user.setAddress(address);
+        user.setPhoneNum(tel);
         HttpSession session = request.getSession();
         session.setAttribute("username",user);
-
-        return "redirect:/index.jsp";
+        System.out.println("执行regist方法22222");
+        return "redirect:/page/fail.jsp";
     }
 
     @RequestMapping("/login")

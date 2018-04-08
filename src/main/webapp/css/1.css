@@ -151,7 +151,7 @@ body{
     float: left;
 }
 
-
+/*菜系展示*/
 .kinds{
     width: 100%;
     height: 900px;
@@ -174,8 +174,6 @@ body{
 
 .kinds ul li a:hover {
     color: #e25111;
-    border-bottom: 2px solid #e25111;
-
 }
 
 .kinds ul li a{
@@ -183,8 +181,43 @@ body{
     text-decoration: none;
 }
 
-.tab-content .fade a {
+.tab-content .fade>a {
     display: inline-block;
-    margin-left: 74px;
+    margin-left: 72px;
     margin-top: 50px;
+    border: 2px solid transparent;
+}
+.tab-content .fade>a:hover{
+    border: 2px solid orange;
+}
+.more{
+    text-align: center;
+    margin-top: 50px;
+}
+.more>a{
+    font-size: 20px;
+}
+
+/*页脚*/
+.food-foot{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #979491;
+    text-align: center;
+}
+
+.food-foot ul{
+    display: inline-block;
+    list-style: none;
+    width: 500px;
+}
+
+.food-foot ul li{
+    margin-left: 10px;
+    float: left;
+}
+.food-foot ul li a{
+    color: #979491;
 }

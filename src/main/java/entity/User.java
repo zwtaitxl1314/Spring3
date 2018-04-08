@@ -10,7 +10,7 @@ public class User implements Serializable {
     private  String name; //姓名
     private  String sex; //性别
     private  Integer age; //年龄
-    private Integer phoneNum; //手机号码
+    private String phoneNum; //手机号码
     private String userName; //用户名，注册账号
     private  String password; //密码
     private  String address; //家庭住址
@@ -49,11 +49,11 @@ public class User implements Serializable {
         this.age = age;
     }
 
-    public Integer getPhoneNum() {
+    public String getPhoneNum() {
         return phoneNum;
     }
 
-    public void setPhoneNum(Integer phoneNum) {
+    public void setPhoneNum(String phoneNum) {
         this.phoneNum = phoneNum;
     }
 
