@@ -152,28 +152,84 @@
         </ul>
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade in active" id="shangdong">
-                <p></p>
+                <a href="index.jsp"><img src="image/鲁菜/扒原壳鲍鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/鲁菜/葱烧海参.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/鲁菜/红烧大虾.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/鲁菜/油爆双脆.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/鲁菜/诗礼银杏.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/鲁菜/白扒四宝.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/鲁菜/葱椒鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/鲁菜/醋椒鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
             </div>
             <div class="tab-pane fade" id="sichuang">
-                <p>iOS
+                <a href="index.jsp"><img src="image/川菜/棒棒鸡.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/川菜/东坡肘子.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/川菜/夫妻肺片.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/川菜/口水鸡.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/川菜/辣香水鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/川菜/辣子鸡丁.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/川菜/水煮肉片.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/川菜/鱼香肉丝.jpg" alt="无法显示图片" title="佛跳墙"></a>
             </div>
             <div class="tab-pane fade" id="guangdong">
-                <p>iOS
+                <a href="index.jsp"><img src="image/粤菜/白切鸡.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/粤菜/鲍汁扣辽参.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/粤菜/阿一鲍鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/粤菜/广州文昌鸡.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/粤菜/红烧乳鸽.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/粤菜/椒盐濑尿虾.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/粤菜/明炉烤乳猪.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/粤菜/蜜汁叉烧.jpg" alt="无法显示图片" title="佛跳墙"></a>
             </div>
             <div class="tab-pane fade" id="jiangsu">
-                <p>Apple
+                <a href="index.jsp"><img src="image/苏菜/鲃肺汤.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/苏菜/碧螺虾仁.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/苏菜/太湖大闸蟹.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/苏菜/松鼠鳜鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/苏菜/叫化童鸡.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/苏菜/糖醋排骨.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/苏菜/太湖银鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/苏菜/阳澄湖大闸蟹.jpg" alt="无法显示图片" title="佛跳墙"></a>
             </div>
             <div class="tab-pane fade"id="fujiang" >
-                <p>、iPod Touch 和 Apple
+                <a href="index.jsp"><img src="image/闽菜/白雪鸡.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/闽菜/扁食.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/闽菜/佛跳墙.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/闽菜/荔枝肉.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/闽菜/红糟鱼排.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/闽菜/漳州卤面.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/闽菜/醉排骨.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/闽菜/厦门沙茶面.jpg" alt="无法显示图片" title="佛跳墙"></a>
             </div>
             <div class="tab-pane fade" id="zhejiang">
-                <p> 2007 年首次发布 iPhone、iPod Touch 和 Apple
+                <a href="index.jsp"><img src="image/浙菜/冰糖甲鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/浙菜/干菜焖肉.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/浙菜/油焖春笋.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/浙菜/杭州煨鸡.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/浙菜/家乡南肉.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/浙菜/嘉兴五芳斋粽子.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/浙菜/龙井虾仁.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/浙菜/西湖醋鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
             </div>
             <div class="tab-pane fade" id="hunan">
-                <p> 2007 年首次发布 iPhone、iPod Touch 和 Apple
+                <a href="index.jsp"><img src="image/湘菜/吉首酸肉.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/湘菜/剁椒鱼头.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/湘菜/东安鸡.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/湘菜/金鱼戏莲.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/湘菜/腊味合蒸.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/湘菜/宁乡口味蛇.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/湘菜/湘西外婆菜.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/湘菜/组庵鱼翅.jpg" alt="无法显示图片" title="佛跳墙"></a>
             </div>
             <div class="tab-pane fade" id="huizhou">
-                <p> 2007 年首次发布 iPhone、iPod Touch 和 Apple
+                <a href="index.jsp"><img src="image/徽菜/红烧果子狸.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/徽菜/虎皮毛豆腐.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/徽菜/徽州圆子.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/徽菜/腌鲜鳜鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/徽菜/中和汤.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/徽菜/双爆串飞.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/徽菜/火腿炖甲鱼.jpg" alt="无法显示图片" title="佛跳墙"></a>
+                <a href="index.jsp"><img src="image/徽菜/当归獐肉.jpg" alt="无法显示图片" title="佛跳墙"></a>
             </div>
 
         </div>
@@ -181,16 +237,9 @@
 
 
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <!-- 包括所有已编译的插件 -->
     <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
-    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
-
-
-
 </body>
 
 
