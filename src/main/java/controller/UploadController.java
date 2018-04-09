@@ -23,7 +23,7 @@ public class UploadController {
             File targetFile = new File("E:/新建文件夹 (2)/"+fileName);
             mf.transferTo(targetFile);
 
-            return "success";
+            return "/WEB-INF/success.jsp";
         } catch (IOException e) {
             e.printStackTrace();
         }

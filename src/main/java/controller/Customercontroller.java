@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import service.UserService;
 import util.StringHelper;
 
-import javax.jws.soap.SOAPBinding;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -25,6 +24,8 @@ public class Customercontroller {
         System.out.println("跳转到注册界面");
         return "regist";
     }
+
+
     @RequestMapping("/regist")
     public String regist(HttpServletRequest request){
         System.out.println("执行regist方法");

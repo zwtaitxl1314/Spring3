@@ -6,7 +6,7 @@
 <head>
     <title>首页</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.css">
     <style>
         .nav-tabs {
@@ -37,7 +37,7 @@
                     <a href="${pageContext.request.contextPath}/customer/login.do">登录</a>
                 </li>
                 <li>
-                            <a href="${pageContext.request.contextPath}/customer/registJsp.do">注册</a>
+                    <a href="${pageContext.request.contextPath}/customer/registJsp.do">注册</a>
                 </li>
             </ul>
         </div>
@@ -100,7 +100,7 @@
         </div>
 
         <div class="appreciate-text">
-            <img src="image/菜肴欣赏横图.jpg">
+            <img src="image/舌尖上的美食.jpg">
         </div>
         <div class="text">
             <p>
@@ -163,7 +163,7 @@
                 <a href="index.jsp"><img src="image/鲁菜/葱椒鱼.jpg" alt="无法显示图片" title="葱椒鱼"></a>
                 <a href="index.jsp"><img src="image/鲁菜/醋椒鱼.jpg" alt="无法显示图片" title="醋椒鱼"></a>
                 <div class="more">
-                    <a href="http://www.bootcss.com/" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
+                    <a href="${pageContext.request.contextPath}/cuisine/more.do" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
                 </div>
             </div>
             <div class="tab-pane fade" id="sichuang">
@@ -176,7 +176,7 @@
                 <a href="index.jsp"><img src="image/川菜/水煮肉片.jpg" alt="无法显示图片" title="水煮肉片"></a>
                 <a href="index.jsp"><img src="image/川菜/鱼香肉丝.jpg" alt="无法显示图片" title="鱼香肉丝"></a>
                 <div class="more">
-                    <a href="http://www.bootcss.com/" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
+                    <a href="${pageContext.request.contextPath}/cuisine/more.do" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
                 </div>
             </div>
             <div class="tab-pane fade" id="guangdong">
@@ -189,7 +189,7 @@
                 <a href="index.jsp"><img src="image/粤菜/明炉烤乳猪.jpg" alt="无法显示图片" title="明炉烤乳猪"></a>
                 <a href="index.jsp"><img src="image/粤菜/蜜汁叉烧.jpg" alt="无法显示图片" title="蜜汁叉烧"></a>
                 <div class="more">
-                    <a href="http://www.bootcss.com/" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
+                    <a href="${pageContext.request.contextPath}/cuisine/more.do" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
                 </div>
             </div>
             <div class="tab-pane fade" id="jiangsu">
@@ -202,7 +202,7 @@
                 <a href="index.jsp"><img src="image/苏菜/太湖银鱼.jpg" alt="无法显示图片" title="太湖银鱼"></a>
                 <a href="index.jsp"><img src="image/苏菜/阳澄湖大闸蟹.jpg" alt="无法显示图片" title="阳澄湖大闸蟹"></a>
                 <div class="more">
-                    <a href="http://www.bootcss.com/" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
+                    <a href="${pageContext.request.contextPath}/cuisine/more.do" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
                 </div>
             </div>
             <div class="tab-pane fade"id="fujiang" >
@@ -215,7 +215,7 @@
                 <a href="index.jsp"><img src="image/闽菜/醉排骨.jpg" alt="无法显示图片" title="醉排骨"></a>
                 <a href="index.jsp"><img src="image/闽菜/厦门沙茶面.jpg" alt="无法显示图片" title="厦门沙茶面"></a>
                 <div class="more">
-                    <a href="http://www.bootcss.com/" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
+                    <a href="${pageContext.request.contextPath}/cuisine/more.do" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
                 </div>
             </div>
             <div class="tab-pane fade" id="zhejiang">
@@ -228,7 +228,7 @@
                 <a href="index.jsp"><img src="image/浙菜/龙井虾仁.jpg" alt="无法显示图片" title="龙井虾仁"></a>
                 <a href="index.jsp"><img src="image/浙菜/西湖醋鱼.jpg" alt="无法显示图片" title="西湖醋鱼"></a>
                 <div class="more">
-                    <a href="http://www.bootcss.com/" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
+                    <a href="${pageContext.request.contextPath}/cuisine/more.do" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
                 </div>
             </div>
             <div class="tab-pane fade" id="hunan">
@@ -241,7 +241,7 @@
                 <a href="index.jsp"><img src="image/湘菜/湘西外婆菜.jpg" alt="无法显示图片" title="湘西外婆菜"></a>
                 <a href="index.jsp"><img src="image/湘菜/组庵鱼翅.jpg" alt="无法显示图片" title="组庵鱼翅"></a>
                 <div class="more">
-                    <a href="http://www.bootcss.com/" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
+                    <a href="${pageContext.request.contextPath}/cuisine/more.do" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
                 </div>
             </div>
             <div class="tab-pane fade" id="huizhou">
@@ -254,7 +254,7 @@
                 <a href="index.jsp"><img src="image/徽菜/火腿炖甲鱼.jpg" alt="无法显示图片" title="火腿炖甲鱼"></a>
                 <a href="index.jsp"><img src="image/徽菜/当归獐肉.jpg" alt="无法显示图片" title="当归獐肉"></a>
                 <div class="more">
-                    <a href="http://www.bootcss.com/" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
+                    <a href="${pageContext.request.contextPath}/cuisine/more.do" class="button button-highlight button-border button-rounded button-primary " >查看更多</a>
                 </div>
             </div>
         </div>
