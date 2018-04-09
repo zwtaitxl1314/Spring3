@@ -49,6 +49,11 @@ body{
     margin: .5rem;
 }
 
+/*注册*/
+.regist{
+   position: absolute;
+}
+
 /*轮播*/
 .carousel{
     position: absolute;

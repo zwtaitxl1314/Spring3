@@ -33,17 +33,13 @@
                 <li><a href="" name="productlist">菜式欣赏 </a></li>
                 <li><a href="" name="article">查看更多 </a></li>
                 <li><a href="" name="contact">关于我们 </a></li>
+                <li>
+                    <a href="${pageContext.request.contextPath}/customer/login.do">登录</a>
+                </li>
+                <li>
+                            <a href="${pageContext.request.contextPath}/customer/registJsp.do">注册</a>
+                </li>
             </ul>
-            <div>
-                <ul>
-                    <li>
-                        登录
-                    </li>
-                    <li>
-                        <a href="${pageContext.request.contextPath}/page/regist.jsp">注册</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
 
