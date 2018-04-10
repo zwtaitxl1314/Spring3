@@ -5,10 +5,8 @@ body{
 
 /*导航栏*/
 .header {
-    position: absolute;
     width: 100%;
     background-color: black;
-    opacity: 0.6;
 }
 
 .header .navigation{
@@ -19,6 +17,7 @@ body{
     display: inline-block;
     margin: 0 ;
     padding: 0;
+
 }
 .header ul li {
     list-style: none;
@@ -48,7 +47,23 @@ body{
     margin: .5rem;
 }
 
-/*注册*/
-.regist{
-    position: absolute;
+.appreciate-text{
+    text-align: center;
+}
+
+.distance{
+    height: 500px;
+}
+
+.distance ul{
+    display: inline-block;
+    width: 100%;
+}
+
+.distance ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
 }
